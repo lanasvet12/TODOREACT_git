@@ -1,0 +1,26 @@
+src/components/Shopproduct.js
+Hints: 
+cdproduct/stop – toggling isPlaying: true/false
+Shopproduct.prototype.toHtml = function(){
+    return `<div class="row py-3 ${this.isinfo ? 'current': ''}">
+    <div class="col-sm-9">${this.title} - ${this.artist}</div>
+    <div class="col-sm-3">${this.price}</div>
+</div>`
+}
+
+src/components/cdproduct.js
+cdproduct.prototype.toHtml = function() {
+    return `<div class="row py-3 ${this.isinfo ? 'current': ''}">   
+                <div class="col-sm-9">${this.length} - ${this.year}</div>   
+                <div class="col-sm-3">${this.play}</div>
+            </div>`
+}
+
+src/bookproduct.js
+
+cdproduct.prototype.toHtml = function() {
+    return `<div class="row py-3 ${this.isinfo ? 'current': ''}">   
+                <div class="col-sm-9">${this.page} - ${this.year}</div>   
+                <div class="col-sm-3">${this.numpage}</div>
+            </div>`
+}
