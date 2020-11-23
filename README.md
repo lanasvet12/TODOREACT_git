@@ -20,8 +20,11 @@ Get/fetch data from MongoDB and display them in Reactjsh application
 Apply css styles to a ReactJS application
 
 How to deploy a MERN Stack App to Heroku
-https://testtodo1245t.herokuapp.com
+
 
 
 Connect MongoDB Atlas to your Heroku application
 https://www.mongodb.com/blog/post/integrating-mongodb-atlas-with-heroku-private-spaces
+
+The result can be viewed:
+https://testtodo1245t.herokuapp.com
